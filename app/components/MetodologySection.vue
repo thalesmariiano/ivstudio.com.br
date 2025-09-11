@@ -16,7 +16,7 @@
             const infos = document.querySelectorAll('.info');
 
             const tl = gsap.timeline({
-                defaults: {duration: 0.6},
+                defaults: {duration: 0.4},
                 scrollTrigger: {
                     trigger: metodology.value,
                     start: 'top center',
