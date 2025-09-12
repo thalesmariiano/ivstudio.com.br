@@ -5,10 +5,8 @@
 </script>
 
 <template>
-    <div class="bg-[url('@/assets/images/start-bg.png')] bg-position-[7rem_5rem] bg-no-repeat bg-black">
-        <InicioSection />
-        <ProjectsSlider />
-    </div>
+    <InicioSection />
+    <ProjectsSlider />
     <BannersSection />
     <BeneficiosSection />
     <MetodologySection />
