@@ -4,7 +4,7 @@
             <div class="w-full lg:w-fit flex gap-3 flex-row lg:flex-col justify-between lg:justify-start items-center lg:items-start">
                 <img class="w-28 lg:w-34" src="@/assets/images/ivstudio-logo.png" />
                 <div class="flex flex-col lg:flex-row gap-x-2 items-start lg:items-center">
-                    <p class="font-poppins font-light text-white text-xs">&copy IV Studio. </p>
+                    <p class="font-poppins font-light text-white text-xs">&copy 2025 IV Studio. </p>
                     <p class="font-poppins font-light text-white text-xs">Todos os direitos reservados.</p>
                 </div>
             </div>

@@ -19,7 +19,7 @@
                     Criamos sites que fazem seu negócio vender mais.
                     Do design à estrategia, tudo é pensado para
                     atrair clientes e gerar conversões. Simples, bonito e
-                    eficiente - extamente como seu site deve ser.
+                    eficiente - exatamente como seu site deve ser.
                 </p>
 
                 <a class="relative after:content-[''] after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-white/40 after:blur-xl flex gap-3 items-center bg-gradient-to-r from-neutral-300 from-75% to-neutral-500 px-6 py-1.5 rounded-xl font-poppins font-semibold text-lg whitespace-nowrap cursor-pointer">

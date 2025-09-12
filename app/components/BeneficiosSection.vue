@@ -11,7 +11,7 @@
                     <div class="flex gap-x-3 items-start">
                         <img class="w-5" src="@/assets/images/icons/checkmark.png" />
                         <div class="space-y-3">
-                            <p class="font-poppins font-semibold italic text-white leading-5 text-sm sm:text-base">Mais clientes menos esforço</p>
+                            <p class="font-poppins font-semibold italic text-white leading-5 text-sm sm:text-base">Mais clientes, menos esforço</p>
                             <p class="font-poppins font-light text-white leading-4 text-xs sm:text-sm">
                                 Seu site trabalha por você 24/7, atraindo e <br/>
                                 convertendo visitantes automaticamente.

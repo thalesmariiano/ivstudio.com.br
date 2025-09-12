@@ -84,7 +84,7 @@
                 <div class="info space-y-2">
                     <div class="opacity-[0.1]">
                         <span class="font-poppins font-light">02.</span>
-                        <p class="font-poppins font-semibold italic text-[#201f21] text-lg">Arquiteta</p>
+                        <p class="font-poppins font-semibold italic text-[#201f21] text-lg">Arquitetura</p>
                     </div>
                     <p class="font-poppins font-light opacity-[0.1]">
                         Sitemap <br/>
@@ -127,7 +127,7 @@
                         <p class="font-poppins font-semibold italic text-[#201f21] text-lg">Front-End</p>
                     </div>
                     <p class="font-poppins font-light opacity-[0.1]">
-                        Programação e condificação <br/>
+                        Programação e codificação <br/>
                         Estrutura de páginas <br/>
                         Funcionalidades <br />
                         Responsividade
