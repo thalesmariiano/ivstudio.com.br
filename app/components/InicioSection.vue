@@ -51,6 +51,48 @@
                     </li>
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
+                            <img class="w-5" src="@/assets/images/slide-icons/authjs.webp" />
+                            <span class="font-poppins font-light text-white text-sm">Auth.js</span>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
+                            <img class="w-5" src="@/assets/images/slide-icons/jwt.svg" />
+                            <span class="font-poppins font-light text-white text-sm">JWT</span>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
+                            <img class="w-5" src="@/assets/images/slide-icons/nestjs.svg" />
+                            <span class="font-poppins font-light text-white text-sm">Nest.js</span>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
+                            <img class="w-5" src="@/assets/images/slide-icons/next.png" />
+                            <span class="font-poppins font-light text-white text-sm">Next.js</span>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
+                            <img class="w-5" src="@/assets/images/slide-icons/react.png" />
+                            <span class="font-poppins font-light text-white text-sm">React.js</span>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
+                            <img class="w-5" src="@/assets/images/slide-icons/sass.png" />
+                            <span class="font-poppins font-light text-white text-sm">SASS</span>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
+                            <img class="w-5" src="@/assets/images/slide-icons/typescript.png" />
+                            <span class="font-poppins font-light text-white text-sm">Typescript</span>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
                             <img class="w-5" src="@/assets/images/slide-icons/nitro.png" />
                             <span class="font-poppins font-light text-white text-sm">Nitro</span>
                         </div>
@@ -71,12 +113,6 @@
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
                             <img class="w-5" src="@/assets/images/slide-icons/nuxt.png" />
                             <span class="font-poppins font-light text-white text-sm">Nuxt.js</span>
-                        </div>
-                    </li>
-                    <li class="splide__slide">
-                        <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-5" src="@/assets/images/slide-icons/php.png" />
-                            <span class="font-poppins font-light text-white text-sm">PHP</span>
                         </div>
                     </li>
                     <li class="splide__slide">
