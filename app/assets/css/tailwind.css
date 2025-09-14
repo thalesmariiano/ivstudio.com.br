@@ -6,4 +6,6 @@
 @theme {
     --font-poppins: 'Poppins', 'sans-serif';
     --shadow-button: 0 0 40px rgba(255, 255, 255, 0.2); 
+
+    --breakpoint-xs: 525px;
 }
