@@ -9,3 +9,15 @@
 
     --breakpoint-xs: 525px;
 }
+
+.embla__dots {
+    @apply flex gap-x-2 justify-center items-center py-10
+}
+
+.embla__dot {
+   @apply w-4 h-4 bg-[#2b2b2b] rounded-full cursor-pointer
+}
+
+.embla__dot--selected {
+    @apply bg-[#8b8b8b]
+}

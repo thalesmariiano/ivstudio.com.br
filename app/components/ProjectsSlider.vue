@@ -1,44 +1,66 @@
 <script setup lang="ts">
     import projects from '@/assets/data/projects.json';
-    import Splide from '@splidejs/splide'
 
-    const splide = ref('splide');
+    import emblaCarouselVue from 'embla-carousel-vue';
 
-	onMounted(() => {
+    const [emblaRef, emblaApi] = emblaCarouselVue({
+        loop: false,
+        align: 'start'
+    });
+
+    onMounted(() => {
+        const dotsNode = document.querySelector('.embla__dots') as HTMLElement;
+        let dots: HTMLElement[] = []
+
         nextTick(() => {
-            const slider =  new Splide(splide.value, {
-                perPage: 5,
-                perMove: 1,
-                arrows: false,
-                breakpoints: {
-                    640: {
-                        perMove: 1
-                    },
-                    768: {
-                        perPage: 2
-                    },
-                    1024: {
-                        perPage: 3
+            const addDotBtnsAndClickHandlers = () => {
+                if(!emblaApi.value) return;
+
+                const addDotBtnsWithClickHandlers = () => {
+                    dotsNode.innerHTML = emblaApi.value?.scrollSnapList().map(() => '<button class="embla__dot" type="button"></button>').join('') as string
+
+                    const scrollTo = (index: number) => {
+                        emblaApi.value!.scrollTo(index)
                     }
+
+                    dots = Array.from(dotsNode.querySelectorAll('.embla__dot'))
+
+                    dots.forEach((dotNode, index) => {
+                        dotNode.addEventListener('click', () => scrollTo(index), false)
+                    })
                 }
-            })
+                  
 
-            slider.on( 'pagination:mounted', function ( data ) {
-                // You can add your class to the UL element
-                data.list.classList.add('translate-y-12');
+                const toggleDotBtnsActive = () => {
+                    const previous = emblaApi.value?.previousScrollSnap()
+                    const selected = emblaApi.value?.selectedScrollSnap()
+                    // @ts-ignore
+                    dots[previous].classList.remove('embla__dot--selected')
+                    // @ts-ignore
+                    dots[selected].classList.add('embla__dot--selected')
+                }
 
-                // `items` contains all dot items
-                // data.items.forEach( function ( item ) {
-                //     item.button.textContent = String( item.page + 1 );
-                // } );
-            } );
-            slider.mount();
-        });
-    }) ;
+                emblaApi.value
+                    .on('init', addDotBtnsWithClickHandlers)
+                    .on('reInit', addDotBtnsWithClickHandlers)
+                    .on('init', toggleDotBtnsActive)
+                    .on('reInit', toggleDotBtnsActive)
+                    .on('select', toggleDotBtnsActive)
+
+                return () => {
+                    dotsNode.innerHTML = ''
+                }
+            }
+
+            const removeDotBtnsAndClickHandlers = addDotBtnsAndClickHandlers() as any
+            emblaApi.value?.on('destroy', removeDotBtnsAndClickHandlers)
+                
+        })
+    });
 </script>
 
 <template>
-    <div class="w-full py-16 bg-gradient-to-t from-black from-70% pb-24">
+    <div class="w-full py-16 bg-gradient-to-t from-black from-70%">
         <div class="w-full max-w-4xl flex justify-between items-center px-3 mx-auto mb-10">
             <p class="font-poppins font-medium text-white italic">
                 <span class="text-neutral-500">//</span>
@@ -51,17 +73,18 @@
         </div>
 
         <div class="w-full flex justify-center items-center">
-            <div ref="splide" class="splide w-full max-w-7xl">
-                <div class="splide__track">
-                    <ul class="splide__list">
-                        <li
-                            v-for="project in projects"
-                            :key="project.id"
-                            class="splide__slide flex justify-center"
-                        >
-                            <ProjectCard :project />
-                        </li>
-                    </ul>
+            <div class="embla w-full max-w-5xl overflow-hidden" ref="emblaRef">
+                <div class="embla__container flex">
+                    <div v-for="project in projects"
+                        :key="project.id"
+                        class="embla__slide flex-[0_0_calc(100%/1)] xs:flex-[0_0_calc(100%/2)] md:flex-[0_0_calc(100%/3)] lg:flex-[0_0_calc(100%/4)] min-w-0 text-white"
+                    >
+                        <ProjectCard class="mx-auto" :project />
+                    </div>
+                </div>
+
+                <div class="embla__controls">
+                    <div class="embla__dots"></div>
                 </div>
             </div>
         </div>
