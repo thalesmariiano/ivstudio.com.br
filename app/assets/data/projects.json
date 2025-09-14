@@ -1,41 +1,48 @@
 [
-    {
+     {
         "id": 1,
-        "name": "Pereira e Kiffer",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat explicabo repellendus",
-        "project_image": "pereira-e-kiffer",
-        "project_link": "https://www.pereirakiffer.com.br"
-    },
-    {
-        "id": 2,
-        "name": "BioAmazon",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat explicabo repellendus",
-        "project_image": "bio-amazon",
-        "project_link": "https://www.bioamazon.pt"
-    },
-    {
-        "id": 3,
         "name": "MenuTap",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat explicabo repellendus",
         "project_image": "menutap",
         "project_link": "https://menutapindex.netlify.app/"
     },
     {
-        "id": 4,
+        "id": 2,
         "name": "Blinky",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat explicabo repellendus",
         "project_image": "blinkybr",
         "project_link": "https://www.blinkybr.com"
     },
     {
+        "id": 3,
+        "name": "BioAmazon",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat explicabo repellendus",
+        "project_image": "bio-amazon",
+        "project_link": "https://www.bioamazon.pt"
+    },
+    {
         "id": 4,
+        "name": "Fabets | iGaming",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat explicabo repellendus",
+        "project_image": "fabets",
+        "project_link": "https://www.behance.net/gallery/234515341/Fabets-iGaming-Brand-Identity"
+    },
+    {
+        "id": 5,
         "name": "Solane Clenia",
         "description": "A marca nasce com uma essência única e marcante, projetada para transmitir a solidez e confiança da profissional por trás dela.",
         "project_image": "solane-clenia",
         "project_link": "https://www.behance.net/gallery/183537157/Solane-Clenia-Contadora-Brand-Identity"
     },
     {
-        "id": 5,
+        "id": 6,
+        "name": "Pereira e Kiffer",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat explicabo repellendus",
+        "project_image": "pereira-e-kiffer",
+        "project_link": "https://www.pereirakiffer.com.br"
+    },
+    {
+        "id": 7,
         "name": "Lazy",
         "description": "O projeto foi iniciado com uma inspiração profunda na beleza autêntica de cada mulher. O objetivo primordial era capturar a essência da naturalidade e da feminilidade, promovendo uma abordagem que celebrasse a individualidade e a autenticidade.",
         "project_image": "lazy",
