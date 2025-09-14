@@ -7,18 +7,18 @@
 	onMounted(() => {
         nextTick(() => {
             const slider =  new Splide(splide.value, {
-                perPage: 4,
+                perPage: 5,
                 perMove: 1,
                 arrows: false,
                 breakpoints: {
-                    1082: {
-                        perPage: 3
+                    640: {
+                        perMove: 1
                     },
-                    760: {
+                    768: {
                         perPage: 2
                     },
-                    510: {
-                        perMove: 1
+                    1024: {
+                        perPage: 3
                     }
                 }
             })
@@ -38,7 +38,7 @@
 </script>
 
 <template>
-    <div class="w-full py-16 bg-gradient-to-t from-black from-70%">
+    <div class="w-full py-16 bg-gradient-to-t from-black from-70% pb-24">
         <div class="w-full max-w-4xl flex justify-between items-center px-3 mx-auto mb-10">
             <p class="font-poppins font-medium text-white italic">
                 <span class="text-neutral-500">//</span>
@@ -51,7 +51,7 @@
         </div>
 
         <div class="w-full flex justify-center items-center">
-            <div ref="splide" class="splide w-full max-w-5xl">
+            <div ref="splide" class="splide w-full max-w-7xl">
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li
@@ -65,6 +65,5 @@
                 </div>
             </div>
         </div>
-        
     </div>
 </template>

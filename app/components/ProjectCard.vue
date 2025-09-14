@@ -3,12 +3,12 @@
 </script>
 
 <template>
-    <div class="w-[15rem] flex flex-col justify-start items-center bg-neutral-400 rounded-4xl overflow-hidden">
+    <div class="w-[15rem] flex flex-col justify-start items-center bg-neutral-400 rounded-2xl overflow-hidden">
         <div class="w-full h-44 bg-neutral-500">
             <img :src="'projects/'+ props.project.project_image + '.png'"
         </div>
         <div class="w-full h-48 p-[2.5px] bg-gradient-to-r from-neutral-900 to-neutral-700">
-            <div class="w-full h-full flex flex-col justify-between items-start bg-neutral-800 rounded-b-[1.8rem] px-5 py-4">
+            <div class="w-full h-full flex flex-col justify-between items-start bg-neutral-800 rounded-b-xl px-5 py-4">
                 <div class="space-y-2">
                     <p class="font-poppins font-semibold text-white text-lg">
                         {{ props.project.name }}
