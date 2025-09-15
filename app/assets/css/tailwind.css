@@ -10,6 +10,10 @@
     --breakpoint-xs: 525px;
 }
 
+body {
+    @apply bg-black
+}
+
 .embla__dots {
     @apply flex gap-x-2 justify-center items-center py-10
 }
