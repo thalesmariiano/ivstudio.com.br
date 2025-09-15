@@ -51,11 +51,13 @@
 
 <template>
     <section ref="metodology" class="w-full bg-[#f6f2f2] px-10 py-24">
-        <h1 class="font-poppins font-semibold italic text-[#201f21] text-left text-lg pl-16 mb-14">// Nossa Metodologia</h1>
+        <div class="w-full max-w-4xl mx-auto">
+            <h1 class="font-poppins font-semibold italic text-[#201f21] text-left text-lg mb-14">// Nossa Metodologia</h1>
+        </div>
 
-        <div class="w-full max-w-[90rem] flex justify-between items-start mx-auto">
+        <div class="w-full max-w-[90rem] flex justify-between items-start mx-auto overflow-x-auto">
 
-            <div class="space-y-10 relative">
+            <div class="min-w-[196px] space-y-10 relative">
                 <div class="progress-line w-0 h-1 rounded bg-[#201f21] absolute top-5 left-5"></div>
 
                 <div class="icon-container relative w-10 h-10 flex justify-center items-center bg-[#201f21] rounded-full">
@@ -75,7 +77,7 @@
                     </p>
                 </div>
             </div>
-            <div class="space-y-10 relative">
+            <div class="min-w-[234px] space-y-10 relative">
                 <div class="progress-line w-0 h-1 rounded bg-[#201f21] absolute top-5 left-5"></div>
 
                 <div class="icon-container relative scale-[0.3] w-10 h-10 flex justify-center items-center bg-[#201f21] rounded-full">
@@ -95,7 +97,7 @@
                     </p>
                 </div>
             </div>
-            <div class="space-y-10 relative">
+            <div class="min-w-[110px] space-y-10 relative">
                 <div class="progress-line w-0 h-1 rounded bg-[#201f21] absolute top-5 left-5"></div>
 
                 <div class="icon-container relative scale-[0.3] w-10 h-10 flex justify-center items-center bg-[#201f21] rounded-full">
@@ -115,7 +117,7 @@
                     </p>
                 </div>
             </div>
-            <div class="space-y-10 relative">
+            <div class="min-w-[224px] space-y-10 relative">
                 <div class="progress-line w-0 h-1 rounded bg-[#201f21] absolute top-5 left-5"></div>
 
                 <div class="icon-container relative scale-[0.3] w-10 h-10 flex justify-center items-center bg-[#201f21] rounded-full">
@@ -134,7 +136,7 @@
                     </p>
                 </div>
             </div>
-            <div class="space-y-10 relative">
+            <div class="min-w-[187px] space-y-10 relative">
                 <div class="progress-line w-0 h-1 rounded bg-[#201f21] absolute top-5 left-5"></div>
 
                 <div class="icon-container relative scale-[0.3] w-10 h-10 flex justify-center items-center bg-[#201f21] rounded-full">
@@ -154,7 +156,7 @@
                     </p>
                 </div>
             </div>
-            <div class="space-y-10 relative">
+            <div class="min-w-[152px] space-y-10 relative">
                 <div class="progress-line w-0 h-1 rounded bg-[#201f21] absolute top-5 left-5"></div>
 
                 <div class="icon-container relative scale-[0.3] w-10 h-10 flex justify-center items-center bg-[#201f21] rounded-full">
