@@ -1,5 +1,5 @@
 <script setup lang="ts">
-    import Splide from '@splidejs/splide'
+    import Splide from '@splidejs/splide';
 
     const splide = ref('splide');
 
@@ -12,15 +12,7 @@
                 arrows: false,
                 pagination: false,
                 fixedWidth: 'fit',
-                breakpoints: {
-                    640: {
-                        perMove: 3,
-                        fixedWidth: '50%',
-                    },
-                    768: {
-                        perPage: 3
-                    },
-                }
+                breakpoints: {}
             })
             slider.mount();
         });
@@ -33,20 +25,20 @@
             <div ref="splide" class="splide w-full">
                 <div class="splide__track">
                     <ul class="splide__list">
-                        <li class="splide__slide w-[29rem] h-[30rem]">
-                            <img class="w-full h-full object-cover object-[73%]" src="@/assets/images/posters/poster1.png" />
+                        <li class="splide__slide w-[200px] md:w-fit h-[250px] lg:h-[400px]">
+                            <img class="w-full h-full object-cover object-[75%]" src="@/assets/images/posters/poster1.png" />
                         </li>
-                        <li class="splide__slide w-[20rem] h-[30rem]">
-                            <img class="w-full h-full object-cover" src="@/assets/images/posters/poster2.png" />
+                        <li class="splide__slide w-[140.625px] lg:w-[250px] lg:h-[400px]">
+                            <img class="w-full h-full" src="@/assets/images/posters/poster2.png" />
                         </li>
-                        <li class="splide__slide w-[20rem] h-[30rem]">
-                            <img class="w-full h-full object-cover" src="@/assets/images/posters/poster3.png" />
+                        <li class="splide__slide w-[140.625px] lg:w-[250px] lg:h-[400px]">
+                            <img class="w-full h-full" src="@/assets/images/posters/poster3.png" />
                         </li>
-                        <li class="splide__slide w-[20rem] h-[30rem]">
-                            <img class="w-full h-full object-cover" src="@/assets/images/posters/poster4.png" />
+                        <li class="splide__slide w-[140.625px] lg:w-[250px] lg:h-[400px]">
+                            <img class="w-full h-full" src="@/assets/images/posters/poster4.png" />
                         </li>
-                        <li class="splide__slide w-[20rem] h-[30rem]">
-                            <img class="w-full h-full object-cover" src="@/assets/images/posters/poster5.webp" />
+                        <li class="splide__slide w-[140.625px] lg:w-[250px] lg:h-[400px]">
+                            <img class="w-full h-full" src="@/assets/images/posters/poster5.webp" />
                         </li>
                     </ul>
                 </div>
