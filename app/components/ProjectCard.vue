@@ -26,7 +26,7 @@
                     <NuxtLink
                         :to="props.project.project_link"
                         target="_blank"
-                        class="flex gap-1 items-center bg-gradient-to-r from-neutral-300 from-75% to-neutral-500 px-2.5 py-1 rounded-xl font-poppins font-semibold text-xs"
+                        class="flex gap-1 items-center bg-gradient-to-r from-neutral-300 from-50% to-neutral-500 px-2.5 py-1 rounded-xl font-poppins font-semibold text-xs"
                     >
                         Acessar
                         <IconsArrowForward width="18" height="18" stroke="#000" />

@@ -77,7 +77,7 @@
                 <div class="embla__container flex">
                     <div v-for="project in projects"
                         :key="project.id"
-                        class="embla__slide flex-[0_0_calc(100%/1)] xs:flex-[0_0_calc(100%/2)] md:flex-[0_0_calc(100%/3)] lg:flex-[0_0_calc(100%/4)] min-w-0 text-white"
+                        class="embla__slide flex-[0_0_calc(100%/1)] xs:flex-[0_0_calc(100%/2)] md:flex-[0_0_calc(100%/3)] lg:flex-[0_0_calc(100%/4)] min-w-0"
                     >
                         <ProjectCard class="mx-auto" :project />
                     </div>
