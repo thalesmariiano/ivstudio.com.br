@@ -2,7 +2,7 @@
     <section class="w-full relative">
 
         <video class="w-screen h-screen absolute object-cover top-0 left-0 -z-10" autoplay muted loop playsinline webkit-playsinline disablepictureinpicture preload="auto">
-            <source src="@/assets/videos/hero-video.mp4" type="video/mp4">
+            <source src="@/assets/videos/hero-video-3.mp4" type="video/mp4">
             <!-- <source src="@/assets/videos/hero-video.ogg" type="video/ogg"> -->
                 Your browser does not support the video tag.
         </video>
