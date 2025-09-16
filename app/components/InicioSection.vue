@@ -117,12 +117,6 @@
                     </li>
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-5" src="@/assets/images/slide-icons/tailwind.png" />
-                            <span class="font-poppins font-light text-white text-sm">Tailwind CSS</span>
-                        </div>
-                    </li>
-                    <li class="splide__slide">
-                        <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
                             <img class="w-5" src="@/assets/images/slide-icons/vue.png" />
                             <span class="font-poppins font-light text-white text-sm">Vue.js</span>
                         </div>
@@ -163,6 +157,18 @@
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
                             <img class="w-5" src="@/assets/images/slide-icons/photoshop.png" />
                             <span class="font-poppins font-light text-white text-sm">Photoshop</span>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
+                            <img class="w-5" src="@/assets/images/slide-icons/figma.png" />
+                            <span class="font-poppins font-light text-white text-sm">Figma</span>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
+                            <img class="w-5" src="@/assets/images/slide-icons/tailwind.png" />
+                            <span class="font-poppins font-light text-white text-sm">Tailwind CSS</span>
                         </div>
                     </li>
                 </ToolsSlider>
