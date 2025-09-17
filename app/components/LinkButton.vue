@@ -21,8 +21,8 @@
 <template>
     <div>
         <NuxtLink
-            @touchstart="elContent?.classList.add('shine-effect', 'animate-[shine-reflex_1.2s_ease-out_0s]')"
-            @touchend="elContent?.classList.remove('shine-effect', 'animate-[shine-reflex_1.2s_ease-out_0s]')"
+            @touchstart="() => elContent?.classList.add('shine-effect', 'shine-effect-mobile')"
+            @touchend="() => elContent?.classList.remove('shine-effect', 'shine-effect-mobile')"
             :to="props.to"
             :target="props.target"
             :class="'group ' + showBlur"
@@ -64,9 +64,9 @@
         transform: rotateZ(30deg);
     }
 
-    /* .shine-effect:hover::before {
+    .shine-effect-mobile {
         animation: shine-reflex 1.3s ease-out 0s;
-    } */
+    }
 
     @keyframes shine-reflex {
         0% {
