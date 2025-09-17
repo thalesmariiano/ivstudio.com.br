@@ -12,6 +12,8 @@
         shineBlur?: boolean
     }>();
 
+    const elContent =  useTemplateRef('el-content')
+
     const showShine = props.shineEffect ? 'shine-effect' : '';
     const showBlur = props.shineBlur ? 'shine-blur' : '';
 </script>
@@ -19,7 +21,12 @@
 <template>
     <div>
         <NuxtLink :to="props.to" :target="props.target" :class="'group ' + showBlur">
-            <div :class="'default-style  ' + showShine + ' ' + props.contentStyle">
+            <div
+                ref="el-content" 
+                @touchstart="elContent?.classList.add('shine-effect')"
+                @touchend="elContent?.classList.remove('shine-effect')"
+                :class="'default-style  ' + showShine + ' ' + props.contentStyle"
+            >
                 {{ props.label }}
                 <IconsArrowForward :width="props.iconWidth" :height="props.iconHeight" stroke="#000" />
             </div>
