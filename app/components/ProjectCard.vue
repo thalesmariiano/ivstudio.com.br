@@ -30,6 +30,8 @@
                         :icon-height="18"
                         :shine-effect="true"
                         :shine-blur="true"
+                        :to="props.project.project_link"
+                        target="_blank"
                         content-style="rounded-xl px-2.5 py-1 text-xs font-semibold"
                     />
 
