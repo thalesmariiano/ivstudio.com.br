@@ -23,11 +23,14 @@
                     </NuxtLink>
                 </li>
             </ul>
-            <a
-                class="flex gap-2 items-center font-poppins font-medium bg-gradient-to-r from-neutral-300 from-75% to-neutral-500 px-3 py-1 rounded-xl">
-                Solicitar Orçamento
-                <IconsArrowForward width="24" height="24" stroke="#000" />
-            </a>
+            
+            <LinkButton
+                label="Solicitar Orçamento"
+                :icon-width="24"
+                :icon-height="24"
+                :shine-effect="true"
+                content-style="rounded-xl pl-4 pr-3 py-1"
+            />
         </nav>
     </div>
 </template>

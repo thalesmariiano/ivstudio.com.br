@@ -4,7 +4,11 @@
 
     onMounted(() => {
         window.onscroll = () => {
-            if(innerWidth > 768) return
+            if(innerWidth > 768){
+                headerDiv.value?.classList.remove('py-10')
+                headerDiv.value?.classList.add('py-5')
+                return
+            }
             const addPadding = scrollY < 5 ? 'py-10' : 'py-5'
             const removePadding = scrollY > 5 ? 'py-10' : 'py-5'
             headerDiv.value?.classList.add(addPadding)
@@ -21,7 +25,7 @@
 <template>
    <div class="w-full fixed top-0 left-0 z-50">
         <header class="w-full bg-black border-0 md:border-b border-neutral-900/50 ">
-            <div ref="header-div" class="w-full max-w-5xl h-full mx-auto px-10 py-10 md:px-5 md:py-5 flex justify-between items-center transition-all">
+            <div ref="header-div" class="w-full max-w-5xl h-full mx-auto px-5 py-5 flex justify-between items-center transition-all">
                 <NuxtLink to="/">
                     <img class="w-16 md:hidden" src="@/assets/images/iv-icon.png" />
                     <img class="w-36 hidden md:block" src="@/assets/images/ivstudio-logo.png" />
@@ -61,10 +65,20 @@
                             </NuxtLink>
                         </li>
                     </ul>
-                    <a class="hidden lg:flex gap-2 items-center font-poppins font-medium bg-gradient-to-r from-neutral-300 from-75% to-neutral-500 px-3 py-1 rounded-xl">
+
+                    <LinkButton
+                        label="Solicitar Orçamento"
+                        :icon-width="24"
+                        :icon-height="24"
+                        :shine-effect="true"
+                        class="hidden lg:block"
+                        content-style="rounded-xl pl-4 pr-3 py-1"
+                    />
+
+                    <!-- <a class="hidden shine-effect cursor-pointer lg:flex gap-2 items-center font-poppins font-medium bg-gradient-to-r from-neutral-300 from-75% to-neutral-500 pl-4 pr-3 py-1 rounded-xl">
                         Solicitar Orçamento
                         <IconsArrowForward width="24" height="24" stroke="#000" />
-                    </a>
+                    </a> -->
 
                     <button @click="showSideMenu = !showSideMenu" class="flex lg:hidden gap-1.5 flex-col justify-center mt-2 cursor-pointer">
                         <div :class="showSideMenu ? 'burger-bar burger-bar-x' : 'burger-bar'"></div>

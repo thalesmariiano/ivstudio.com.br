@@ -22,10 +22,19 @@
                     eficiente - exatamente como seu site deve ser.
                 </p>
 
-                <a class="relative after:content-[''] after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-white/40 after:blur-xl flex gap-3 items-center bg-gradient-to-r from-neutral-300 from-75% to-neutral-500 px-6 py-1.5 rounded-xl font-poppins font-semibold text-lg whitespace-nowrap cursor-pointer">
+                <LinkButton
+                    label="Solicitar Orçamento"
+                    :icon-width="24"
+                    :icon-height="24"
+                    :shine-effect="true"
+                    :shine-blur="true"
+                    content-style="rounded-xl px-6 py-1.5 text-lg font-semibold whitespace-nowrap"
+                />
+
+                <!-- <a class="relative after:content-[''] after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-white/40 after:blur-xl flex gap-3 items-center bg-gradient-to-r from-neutral-300 from-75% to-neutral-500 px-6 py-1.5 rounded-xl font-poppins font-semibold text-lg whitespace-nowrap cursor-pointer">
                     Solicitar Orçamento
                     <IconsArrowForward width="24" height="24" stroke="#000" />
-                </a>
+                </a> -->
 
                 <div class="flex gap-2 items-center">
                     <a><IconsGithub width="30" height="30" fill="#fff" /></a>

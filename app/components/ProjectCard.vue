@@ -23,14 +23,24 @@
                         <span class="w-2 h-2 bg-green-500 rounded-full"></span>
 
                     </div>
-                    <NuxtLink
+
+                    <LinkButton
+                        label="Acessar"
+                        :icon-width="18"
+                        :icon-height="18"
+                        :shine-effect="true"
+                        :shine-blur="true"
+                        content-style="rounded-xl px-2.5 py-1 text-xs font-semibold"
+                    />
+
+                    <!-- <NuxtLink
                         :to="props.project.project_link"
                         target="_blank"
                         class="flex gap-1 items-center bg-gradient-to-r from-neutral-300 from-50% to-neutral-500 px-2.5 py-1 rounded-xl font-poppins font-semibold text-xs"
                     >
                         Acessar
                         <IconsArrowForward width="18" height="18" stroke="#000" />
-                    </NuxtLink>
+                    </NuxtLink> -->
                 </div>
             </div>
         </div>
