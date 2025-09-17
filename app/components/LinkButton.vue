@@ -64,7 +64,7 @@
         transform: rotateZ(30deg);
     }
 
-    .shine-effect-mobile {
+    .shine-effect-mobile::before {
         animation: shine-reflex 1.3s ease-out 0s;
     }
 
