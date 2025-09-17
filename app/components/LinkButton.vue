@@ -20,13 +20,14 @@
 
 <template>
     <div>
-        <NuxtLink :to="props.to" :target="props.target" :class="'group ' + showBlur">
-            <div
-                ref="el-content" 
-                @touchstart="elContent?.classList.add('shine-effect', 'animate-[shine-reflex_1.2s_ease-out_0s]')"
-                @touchend="elContent?.classList.remove('shine-effect', 'animate-[shine-reflex_1.2s_ease-out_0s]')"
-                :class="'default-style  ' + showShine + ' ' + props.contentStyle"
-            >
+        <NuxtLink
+            @touchstart="elContent?.classList.add('shine-effect', 'animate-[shine-reflex_1.2s_ease-out_0s]')"
+            @touchend="elContent?.classList.remove('shine-effect', 'animate-[shine-reflex_1.2s_ease-out_0s]')"
+            :to="props.to"
+            :target="props.target"
+            :class="'group ' + showBlur"
+        >
+            <div ref="el-content" :class="'default-style  ' + showShine + ' ' + props.contentStyle">
                 {{ props.label }}
                 <IconsArrowForward :width="props.iconWidth" :height="props.iconHeight" stroke="#000" />
             </div>
