@@ -61,15 +61,15 @@
 
 <template>
     <div class="w-full py-16 bg-gradient-to-t from-black from-70%">
-        <div class="w-full max-w-4xl flex justify-between items-center px-3 mx-auto mb-10">
+        <div class="w-full max-w-4xl flex gap-y-5 flex-col sm:flex-row justify-between items-center px-3 mx-auto mb-10">
             <p class="font-poppins font-medium text-white italic">
                 <span class="text-neutral-500">//</span>
                 Confira alguns projetos
             </p>
-            <a class="flex gap-2 items-center text-white font-poppins font-light italic">
+            <NuxtLink to="/portfolio" class="flex gap-2 items-center text-white font-poppins font-light italic hover:underline">
                 Veja mais projetos
                 <IconsArrowForward width="18" height="18" stroke="#fff" />
-            </a>
+            </NuxtLink to="/portfolio">
         </div>
 
         <div class="w-full flex justify-center items-center">
