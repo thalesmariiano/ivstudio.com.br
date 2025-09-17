@@ -23,8 +23,8 @@
         <NuxtLink :to="props.to" :target="props.target" :class="'group ' + showBlur">
             <div
                 ref="el-content" 
-                @touchstart="elContent?.classList.add('shine-effect')"
-                @touchend="elContent?.classList.remove('shine-effect')"
+                @touchstart="elContent?.classList.add('shine-effect', 'animate-[shine-reflex_1.2s_ease-out_0s]')"
+                @touchend="elContent?.classList.remove('shine-effect', 'animate-[shine-reflex_1.2s_ease-out_0s]')"
                 :class="'default-style  ' + showShine + ' ' + props.contentStyle"
             >
                 {{ props.label }}
