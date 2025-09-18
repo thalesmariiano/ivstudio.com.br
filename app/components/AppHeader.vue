@@ -23,7 +23,7 @@
 </script>
 
 <template>
-   <div class="w-full fixed top-0 left-0 z-50">
+   <div class="w-full sticky top-0 left-0 z-50">
         <header class="w-full bg-black border-0 md:border-b border-neutral-900/50 ">
             <div ref="header-div" class="w-full max-w-5xl h-full mx-auto px-5 py-5 flex justify-between items-center transition-all">
                 <NuxtLink to="/">
