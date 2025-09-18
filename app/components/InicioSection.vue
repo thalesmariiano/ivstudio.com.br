@@ -8,7 +8,7 @@
         </video>
 
         <div class="w-full">
-            <div class="w-full h-full flex gap-7 flex-col justify-center items-center px-4 pt-36 pb-5">
+            <div class="w-full h-full flex gap-7 flex-col justify-center items-center px-4 pt-14 sm:pt-24 pb-5">
                 <h1 class="font-poppins text-white font-semibold text-[28px] sm:text-[2.7rem] leading-8 sm:leading-12 text-center">
                     Sites que Convertem <br>
                     e Impulsionam Seu <br>
