@@ -91,8 +91,8 @@
 
 <template>
     <section ref="metodology" class="w-full bg-[#f6f2f2] px-5 xl:px-10 py-24">
-        <div class="w-full max-w-4xl mx-auto">
-            <h1 class="font-poppins font-semibold italic text-[#201f21] text-left text-lg mb-14">// Nossa Metodologia</h1>
+        <div class="w-full max-w-2xl lg:max-w-4xl mx-auto">
+            <h1 class="font-poppins font-semibold italic text-[#201f21] text-left text-lg mb-14 pl-5 sm:pl-0">// Nossa Metodologia</h1>
         </div>
 
         <div class="w-full max-w-[90rem] flex flex-col justify-between items-center lg:items-start mx-auto">

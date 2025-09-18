@@ -1,13 +1,13 @@
 <template>
     <section class="w-full bg-[url('@/assets/images/beneficios-bg.png')] bg-cover px-5 sm:px-10 py-20">
-        <div class="w-full max-w-4xl mx-auto">
-            <h1 class="font-poppins font-medium text-white italic mb-14 text-lg text-end sm:text-start">
+        <div class="w-full max-w-2xl lg:max-w-4xl mx-auto">
+            <h1 class="font-poppins font-medium text-white italic mb-14 text-lg pl-5 sm:pl-0">
                 <span class="text-neutral-500">//</span>
                 Benefícios
             </h1>
 
             <div class="flex flex-col gap-7 lg:flex-row justify-center items-center lg:items-start gap-x-20">
-                <div class="w-full max-w-[23rem] space-y-7">
+                <div class="w-full max-w-75.5 sm:max-w-[23rem] space-y-7">
                     <div class="flex gap-x-3 items-start">
                         <img class="w-5" src="@/assets/images/icons/checkmark.png" />
                         <div class="space-y-3">
@@ -39,7 +39,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-full max-w-[23rem] space-y-7">
+                <div class="w-full max-w-75.5 sm:max-w-[23rem] space-y-7">
                     <div class="flex gap-x-3 items-start">
                         <img class="w-5" src="@/assets/images/icons/notebook-fire.gif" />
                         <div class="space-y-3">
