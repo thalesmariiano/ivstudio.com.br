@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Landing Page",
+    "description": "Uma página web criada para atingir um objetivo específico, mas que também pode funcionar como um site institucional em formato único. Ideal para campanhas, lançamentos ou apresentar seu negócio de forma prática e estratégica.",
+    "example_project": null
+  },
+  {
+    "id": 2,
+    "title": "Site Institucional",
+    "description": "Um site completo que apresenta a empresa de forma profissional, transmitindo credibilidade e fortalecendo a presença digital. Reúne informações sobre a marca, serviços, contatos e diferenciais em um ambiente responsivo e bem estruturado.",
+    "example_project": null
+  },
+  {
+    "id": 3,
+    "title": "Página de Captura ou Vendas",
+    "description": "Uma página criada para gerar ação imediata, seja captar contatos ou concluir uma venda. Estruturada de forma estratégica, combina design atrativo, copy persuasiva e chamadas para ação que direcionam o visitante para o próximo passo.",
+    "example_project": null
+  },
+  {
+    "id": 4,
+    "title": "Criativos para Anúncios",
+    "description": "Desenvolvemos artes digitais estratégicas para anúncios e ofertas, pensadas para atrair atenção, gerar interesse e aumentar conversões. Cada peça comunica sua mensagem de forma clara, conectando sua marca ao público certo.",
+    "example_project": null
+  },
+  {
+    "id": 5,
+    "title": "Design para Social Media",
+    "description": "Criação de artes estratégicas para redes sociais, posts e stories que fortalecem a identidade da sua marca, aumentam engajamento e geram mais conexão com o público.",
+    "example_project": null
+  },
+  {
+    "id": 6,
+    "title": "Materiais Digitais e Apresentações",
+    "description": "Criação de e-books, apresentações e materiais de apoio para cursos, mentorias, palestras e conteúdos digitais. Design estratégico que comunica suas ideias de forma clara, profissional e impactante, fortalecendo sua marca e engajando seu público.",
+    "example_project": null
+  },
+  {
+    "id": 7,
+    "title": "Identidade Visual",
+    "description": "Desenvolvemos identidades visuais completas que refletem os valores da sua marca e fortalecem sua presença no mercado, transmitindo credibilidade e consistência em todos os pontos de contato.",
+    "example_project": null
+  }
+]
