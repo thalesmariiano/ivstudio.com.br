@@ -7,7 +7,7 @@
 </script>
 
 <template>
-    <section class="w-full px-5 py-20">
+    <section class="w-full px-5 py-10 sm:py-14 lg:py-20 bg-[url('@/assets/images/iv_background.png')] bg-cover">
         <div class="w-full max-w-7xl flex flex-col lg:flex-row gap-10 lg:gap-5 justify-between mx-auto">
             <div class="w-full max-w-xl space-y-5 mx-auto lg:mx-0">
                 <h1 class="w-72 text-center py-2.5 rounded-3xl font-poppins font-extralight uppercase text-sm text-white tracking-[4px] bg-[rgb(32,32,32)] mx-auto lg:mx-0">Nossos serviços</h1>
