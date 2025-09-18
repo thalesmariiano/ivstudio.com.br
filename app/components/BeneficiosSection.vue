@@ -1,7 +1,7 @@
 <template>
     <section class="w-full bg-[url('@/assets/images/beneficios-bg.png')] bg-cover px-5 sm:px-10 py-20">
-        <div class="w-full max-w-2xl lg:max-w-4xl mx-auto">
-            <h1 class="font-poppins font-medium text-white italic mb-14 text-lg pl-5 sm:pl-0">
+        <div class="w-full max-w-sm sm:max-w-md lg:max-w-4xl mx-auto">
+            <h1 class="font-poppins font-medium text-white italic mb-14 text-lg">
                 <span class="text-neutral-500">//</span>
                 Benefícios
             </h1>
