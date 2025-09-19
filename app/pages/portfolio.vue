@@ -7,10 +7,10 @@
 <template>
     <section class="w-full px-5 py-10 sm:py-14 lg:py-20">
 
-        <div class="w-full max-w-6xl flex gap-5 lg:gap-9 flex-col justify-betweeb mx-auto">
+        <div class="w-full max-w-2xl lg:max-w-6xl flex gap-5 lg:gap-9 flex-col justify-betweeb mx-auto">
 
             <div class="w-full lg:h-72 flex flex-col lg:flex-row gap-10 items-center lg:justify-between lg:items-start">
-                <div class="w-80 lg:w-1/2 space-y-5">
+                <div class="w-full max-w-[30rem] lg:w-1/2 space-y-5">
                     <h1
                         class="w-52 text-center py-2.5 rounded-3xl font-poppins font-extralight uppercase text-sm text-white tracking-[4px] bg-[rgb(32,32,32)] mx-auto lg:mx-0">
                         Portfólio
@@ -41,18 +41,18 @@
                 </div>
             </div>
 
-            <div class="w-full flex gap-5 lg:gap-10 justify-between">
-                <div class="group w-[90%] rounded-3xl overflow-hidden">
+            <div class="w-full flex flex-col md:flex-row gap-5 lg:gap-10 justify-between">
+                <div class="group lg:w-[90%] rounded-3xl overflow-hidden">
                     <img class="w-full h-full object-cover group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/blinky_banner.png" />
                 </div>
 
-                <div class="group w-[90%] rounded-3xl overflow-hidden">
+                <div class="group lg:w-[90%] rounded-3xl overflow-hidden">
                     <img class="w-full h-full object-cover group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/solane-clenia.png" />
-                </div>
+                </div>  
             </div>
 
             <div class="w-full lg:h-[600px] flex flex-col lg:flex-row gap-5 lg:gap-10 justify-between">
-                <div class="group lg:w-[90%] h-[400px] rounded-3xl overflow-hidden">
+                <div class="group lg:w-[90%] h-[400px] lg:h-full rounded-3xl overflow-hidden">
                     <img class="w-full h-full object-cover object-top group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/menutap.png" />
                 </div>
 
@@ -81,12 +81,12 @@
                 <img class="w-full h-full object-cover object-right md:object-center group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/betzok_2.png" />
             </div>
 
-            <div class="w-full h-96 lg:h-[500px] flex flex-col lg:flex-row gap-5 lg:gap-10 justify-between">
-                <div class="group lg:w-[90%] rounded-3xl overflow-hidden bg-neutral-400">
+            <div class="w-full lg:h-[500px] flex flex-col lg:flex-row gap-5 lg:gap-10 justify-between">
+                <div class="group lg:w-[90%] h-96 lg:h-full rounded-3xl overflow-hidden bg-neutral-400">
                     <!-- <img class="w-full h-full object-cover group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/blinky_banner.png" /> -->
                 </div>
 
-                <div class="group lg:w-[90%] rounded-3xl overflow-hidden">
+                <div class="group lg:w-[90%] h-[400px] lg:h-full rounded-3xl overflow-hidden">
                     <img class="w-full h-full object-cover object-top group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/pereira-e-kiffer.png" />
                 </div>
             </div>
@@ -99,9 +99,9 @@
                 <img class="w-full h-full object-cover object-[65%] lg:object-center group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/advocacia.png" />
             </div>
 
-            <div class="w-full h-62 bg-gradient-to-l from-neutral-300/4 via-transparent via-50% to-neutral-300/4 flex gap-5 flex-col justify-center items-center rounded-3xl">
+            <div class="w-full h-62 bg-gradient-to-l from-neutral-300/5 via-transparent via-50% to-neutral-300/5 flex gap-5 flex-col justify-center items-center rounded-3xl p-4">
                 <div class="space-y-2 text-center">
-                    <h2 class="font-poppins font-semibold text-white text-4xl">Gostou do que viu?</h2>
+                    <h2 class="font-poppins font-semibold text-white text-3xl sm:text-4xl">Gostou do que viu?</h2>
                     <p class="font-poppins font-light text-white text-sm">
                         Cada projeto começa com uma conversa.
                     </p>
