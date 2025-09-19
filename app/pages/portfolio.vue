@@ -7,7 +7,7 @@
 <template>
     <section class="w-full px-5 py-10 sm:py-14 lg:py-20">
 
-        <div class="w-full max-w-2xl lg:max-w-6xl flex gap-5 lg:gap-9 flex-col justify-betweeb mx-auto">
+        <div class="w-full max-w-2xl lg:max-w-6xl flex gap-3 xs:gap-5 lg:gap-9 flex-col justify-betweeb mx-auto">
 
             <div class="w-full lg:h-72 flex flex-col lg:flex-row gap-10 items-center lg:justify-between lg:items-start">
                 <div class="w-full max-w-md lg:max-w-[32rem] lg:w-1/2 space-y-5">
@@ -41,7 +41,7 @@
                 </div>
             </div>
 
-            <div class="w-full flex flex-col md:flex-row gap-5 lg:gap-10 justify-between">
+            <div class="w-full flex flex-col md:flex-row gap-2 xs:gap-5 lg:gap-10 justify-between">
                 <div class="group lg:w-[90%] rounded-3xl overflow-hidden">
                     <img class="w-full h-full object-cover group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/blinky_banner.png" />
                 </div>
@@ -51,23 +51,23 @@
                 </div>  
             </div>
 
-            <div class="w-full lg:h-[600px] flex flex-col lg:flex-row gap-5 lg:gap-10 justify-between">
+            <div class="w-full lg:h-[600px] flex flex-col lg:flex-row gap-3 xs:gap-5 lg:gap-10 justify-between">
                 <div class="group lg:w-[90%] h-[400px] lg:h-full rounded-3xl overflow-hidden">
                     <img class="w-full h-full object-cover object-top group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/menutap.png" />
                 </div>
 
-                <div class="lg:w-[90%] flex gap-5 flex-col items-center rounded-3xl">
-                    <div class="w-full h-1/2 flex gap-3 justify-between">
-                        <div class="group rounded-3xl overflow-hidden">
-                            <img class="w-full h-full object-cover group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/betzok_1.png" />
+                <div class="lg:w-[90%] flex gap-3 xs:gap-5 flex-col items-center rounded-3xl">
+                    <div class="w-full h-1/2 flex gap-2 xs:gap-3 justify-between">
+                        <div class="group rounded-xl xs:rounded-3xl overflow-hidden">
+                            <img class="w-full h-full object-cover group-hover:scale-105 transition-all rounded-xl xs:rounded-3xl" src="@/assets/images/portfolio/betzok_1.png" />
                         </div>
-                        <div class="group rounded-3xl overflow-hidden">
-                            <img class="w-full h-full object-cover group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/betzok_4.png" />
+                        <div class="group rounded-xl xs:rounded-3xl overflow-hidden">
+                            <img class="w-full h-full object-cover group-hover:scale-105 transition-all rounded-xl xs:rounded-3xl" src="@/assets/images/portfolio/betzok_4.png" />
                         </div>
-                        <div class="group rounded-3xl overflow-hidden">
-                            <img class="w-full h-full object-cover group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/betzok_7.png" />
+                        <div class="group rounded-xl xs:rounded-3xl overflow-hidden">
+                            <img class="w-full h-full object-cover group-hover:scale-105 transition-all rounded-xl xs:rounded-3xl" src="@/assets/images/portfolio/betzok_7.png" />
                         </div>
-                        <div class="group rounded-3xl overflow-hidden">
+                        <div class="group rounded-xl xs:rounded-3xl overflow-hidden">
                             <img class="w-full h-full object-cover group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/betzok_9.png" />
                         </div>
                     </div>
@@ -81,7 +81,7 @@
                 <img class="w-full h-full object-cover object-right md:object-center group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/betzok_2.png" />
             </div>
 
-            <div class="w-full lg:h-[500px] flex flex-col lg:flex-row gap-5 lg:gap-10 justify-between">
+            <div class="w-full lg:h-[500px] flex flex-col lg:flex-row gap-2 xs:gap-5 lg:gap-10 justify-between">
                 <div class="group lg:w-[90%] h-96 lg:h-full rounded-3xl overflow-hidden bg-neutral-400">
                     <!-- <img class="w-full h-full object-cover group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/blinky_banner.png" /> -->
                 </div>
