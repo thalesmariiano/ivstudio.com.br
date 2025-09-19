@@ -1,20 +1,7 @@
 <script setup lang="ts">
     const showSideMenu = ref<boolean>(false);
-    const headerDiv = useTemplateRef('header-div');
 
     onMounted(() => {
-        window.onscroll = () => {
-            if(innerWidth > 768){
-                headerDiv.value?.classList.remove('py-10')
-                headerDiv.value?.classList.add('py-5')
-                return
-            }
-            const addPadding = scrollY < 5 ? 'py-10' : 'py-5'
-            const removePadding = scrollY > 5 ? 'py-10' : 'py-5'
-            headerDiv.value?.classList.add(addPadding)
-            headerDiv.value?.classList.remove(removePadding)
-        }
-
         window.onresize = () => {
             if(showSideMenu.value) showSideMenu.value = false
         }
