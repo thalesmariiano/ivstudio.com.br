@@ -10,7 +10,7 @@
         <div class="w-full max-w-2xl lg:max-w-6xl flex gap-5 lg:gap-9 flex-col justify-betweeb mx-auto">
 
             <div class="w-full lg:h-72 flex flex-col lg:flex-row gap-10 items-center lg:justify-between lg:items-start">
-                <div class="w-full max-w-[30rem] lg:w-1/2 space-y-5">
+                <div class="w-full max-w-md lg:max-w-[32rem] lg:w-1/2 space-y-5">
                     <h1
                         class="w-52 text-center py-2.5 rounded-3xl font-poppins font-extralight uppercase text-sm text-white tracking-[4px] bg-[rgb(32,32,32)] mx-auto lg:mx-0">
                         Portfólio
@@ -18,7 +18,7 @@
                     <div class="space-y-10">
                         <div class="space-y-3 text-center lg:text-left">
                             <h2 class="font-poppins font-bold text-white text-3xl">Nossos Projetos</h2>
-                            <p class="lg:w-[92%] font-poppins font-light text-white">
+                            <p class="font-poppins font-light text-white">
                                 Conheça os projetos que já ajudaram marcas a se destacar no
                                 digital. Cada trabalho é pensado para unir estratégia e design,
                                 gerando resultados reais
@@ -31,7 +31,7 @@
                             :icon-height="24"
                             :shine-effect="true"
                             :shine-blur="true"
-                            class="w-80 mx-auto lg:mx-0"
+                            class="w-fit mx-auto lg:mx-0"
                             content-style="rounded-xl px-6 py-1.5 text-lg font-semibold whitespace-nowrap"
                         />
                     </div>
@@ -77,7 +77,7 @@
                 </div>
             </div>
 
-            <div class="group w-full h-72 rounded-3xl overflow-hidden">
+            <div class="group w-full lg:h-72 rounded-3xl overflow-hidden">
                 <img class="w-full h-full object-cover object-right md:object-center group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/betzok_2.png" />
             </div>
 
@@ -95,8 +95,8 @@
                 <!-- <img class="w-full h-full object-cover group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/betzok_2.png" /> -->
             </div>
 
-            <div class="group w-full h-[600px] rounded-3xl overflow-hidden">
-                <img class="w-full h-full object-cover object-[65%] lg:object-center group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/advocacia.png" />
+            <div class="group w-full sm:h-[400px] lg:h-[600px] rounded-3xl overflow-hidden">
+                <img class="w-full h-full object-cover lg:object-center group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/advocacia.png" />
             </div>
 
             <div class="w-full h-62 bg-gradient-to-l from-neutral-300/5 via-transparent via-50% to-neutral-300/5 flex gap-5 flex-col justify-center items-center rounded-3xl p-4">
