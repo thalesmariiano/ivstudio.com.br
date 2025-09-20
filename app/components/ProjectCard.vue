@@ -13,6 +13,13 @@
                     <p class="font-poppins font-semibold text-white text-lg">
                         {{ props.project.name }}
                     </p>
+                    <div class="flex gap-2 items-center">
+                        <img
+                            v-for="project_tool in props.project.project_tools"
+                            :src="`/tools-icons/${project_tool}.png`"
+                            class="w-4"
+                        />
+                    </div>
                     <p class="font-poppins font-light text-[11px] text-neutral-500 leading-3">
                         {{ props.project.description.slice(0, 150) + '...' }}
                     </p>
