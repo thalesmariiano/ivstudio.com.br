@@ -48,103 +48,103 @@
                 <ToolsSlider :direction="0.2">
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-5" src="@/assets/images/slide-icons/html.png" />
+                            <img class="w-5" src="/tools-icons/html.png" />
                             <span class="font-poppins font-light text-white text-sm">HTML 5</span>
                         </div>
                     </li>
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-5" src="@/assets/images/slide-icons/css.png" />
+                            <img class="w-5" src="/tools-icons/css.png" />
                             <span class="font-poppins font-light text-white text-sm">CSS</span>
                         </div>  
                     </li>
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-5" src="@/assets/images/slide-icons/authjs.webp" />
+                            <img class="w-5" src="/tools-icons/authjs.webp" />
                             <span class="font-poppins font-light text-white text-sm">Auth.js</span>
                         </div>
                     </li>
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-5" src="@/assets/images/slide-icons/jwt.svg" />
+                            <img class="w-5" src="/tools-icons/jwt.svg" />
                             <span class="font-poppins font-light text-white text-sm">JWT</span>
                         </div>
                     </li>
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-5" src="@/assets/images/slide-icons/nestjs.svg" />
+                            <img class="w-5" src="/tools-icons/nestjs.svg" />
                             <span class="font-poppins font-light text-white text-sm">Nest.js</span>
                         </div>
                     </li>
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-5" src="@/assets/images/slide-icons/next.png" />
+                            <img class="w-5" src="/tools-icons/next.png" />
                             <span class="font-poppins font-light text-white text-sm">Next.js</span>
                         </div>
                     </li>
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-5" src="@/assets/images/slide-icons/react.png" />
+                            <img class="w-5" src="/tools-icons/react.png" />
                             <span class="font-poppins font-light text-white text-sm">React.js</span>
                         </div>
                     </li>
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-5" src="@/assets/images/slide-icons/sass.png" />
+                            <img class="w-5" src="/tools-icons/sass.png" />
                             <span class="font-poppins font-light text-white text-sm">SASS</span>
                         </div>
                     </li>
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-5" src="@/assets/images/slide-icons/typescript.png" />
+                            <img class="w-5" src="/tools-icons/typescript.png" />
                             <span class="font-poppins font-light text-white text-sm">Typescript</span>
                         </div>
                     </li>
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-5" src="@/assets/images/slide-icons/nitro.png" />
+                            <img class="w-5" src="/tools-icons/nitro.png" />
                             <span class="font-poppins font-light text-white text-sm">Nitro</span>
                         </div>
                     </li>
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-5" src="@/assets/images/slide-icons/js.png" />
+                            <img class="w-5" src="/tools-icons/js.png" />
                             <span class="font-poppins font-light text-white text-sm">Javascript</span>
                         </div>
                     </li>
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-5" src="@/assets/images/slide-icons/mysql.png" />
+                            <img class="w-5" src="/tools-icons/mysql.png" />
                             <span class="font-poppins font-light text-white text-sm">MySQL</span>
                         </div>
                     </li>
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-5" src="@/assets/images/slide-icons/nuxt.png" />
+                            <img class="w-5" src="/tools-icons/nuxt.png" />
                             <span class="font-poppins font-light text-white text-sm">Nuxt.js</span>
                         </div>
                     </li>
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-5" src="@/assets/images/slide-icons/vue.png" />
+                            <img class="w-5" src="/tools-icons/vue.png" />
                             <span class="font-poppins font-light text-white text-sm">Vue.js</span>
                         </div>
                     </li>
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-5" src="@/assets/images/slide-icons/prisma.svg" />
+                            <img class="w-5" src="/tools-icons/prisma.svg" />
                             <span class="font-poppins font-light text-white text-sm">Prisma</span>
                         </div>
                     </li>
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-2" src="@/assets/images/slide-icons/mongodb.png" />
+                            <img class="w-2" src="/tools-icons/mongodb.png" />
                             <span class="font-poppins font-light text-white text-sm">MongoDB</span>
                         </div>
                     </li>
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-5" src="@/assets/images/slide-icons/postgresql.png" />
+                            <img class="w-5" src="/tools-icons/postgresql.png" />
                             <span class="font-poppins font-light text-white text-sm">PostgreSQl</span>
                         </div>
                     </li>
@@ -152,31 +152,31 @@
                 <ToolsSlider :direction="-0.2">
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-5" src="@/assets/images/slide-icons/coreldraw.png" />
+                            <img class="w-5" src="/tools-icons/coreldraw.png" />
                             <span class="font-poppins font-light text-white text-sm">Coreldraw</span>
                         </div>
                     </li>
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-5" src="@/assets/images/slide-icons/inkscape.png" />
+                            <img class="w-5" src="/tools-icons/inkscape.png" />
                             <span class="font-poppins font-light text-white text-sm">Inkscape</span>
                         </div>
                     </li>
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-5" src="@/assets/images/slide-icons/photoshop.png" />
+                            <img class="w-5" src="/tools-icons/photoshop.png" />
                             <span class="font-poppins font-light text-white text-sm">Photoshop</span>
                         </div>
                     </li>
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-5" src="@/assets/images/slide-icons/figma.png" />
+                            <img class="w-5" src="/tools-icons/figma.png" />
                             <span class="font-poppins font-light text-white text-sm">Figma</span>
                         </div>
                     </li>
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-5" src="@/assets/images/slide-icons/tailwind.png" />
+                            <img class="w-5" src="/tools-icons/tailwind.png" />
                             <span class="font-poppins font-light text-white text-sm">Tailwind CSS</span>
                         </div>
                     </li>
