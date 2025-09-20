@@ -60,19 +60,19 @@
                     </li>
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-5" src="/tools-icons/authjs.webp" />
+                            <img class="w-5" src="/tools-icons/authjs.png" />
                             <span class="font-poppins font-light text-white text-sm">Auth.js</span>
                         </div>
                     </li>
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-5" src="/tools-icons/jwt.svg" />
+                            <img class="w-5" src="/tools-icons/jwt.png" />
                             <span class="font-poppins font-light text-white text-sm">JWT</span>
                         </div>
                     </li>
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-5" src="/tools-icons/nestjs.svg" />
+                            <img class="w-5" src="/tools-icons/nestjs.png" />
                             <span class="font-poppins font-light text-white text-sm">Nest.js</span>
                         </div>
                     </li>
@@ -132,7 +132,7 @@
                     </li>
                     <li class="splide__slide">
                         <div class="w-fit flex gap-2 items-center bg-[#1e1e1e] px-4 py-1.5 rounded-xl">
-                            <img class="w-5" src="/tools-icons/prisma.svg" />
+                            <img class="w-5" src="/tools-icons/prisma.png" />
                             <span class="font-poppins font-light text-white text-sm">Prisma</span>
                         </div>
                     </li>
