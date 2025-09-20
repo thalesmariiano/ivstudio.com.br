@@ -1,6 +1,5 @@
 <script setup lang="ts">
     import projects from '@/assets/data/projects.json';
-
     import emblaCarouselVue from 'embla-carousel-vue';
 
     const [emblaRef, emblaApi] = emblaCarouselVue({
