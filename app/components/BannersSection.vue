@@ -40,6 +40,9 @@
                         <li class="splide__slide w-[140.625px] h-[250px] md:w-[281.25px] md:h-[500px]">
                             <img class="w-full h-full object-cover" src="@/assets/images/posters/poster5.webp" />
                         </li>
+                        <li class="splide__slide w-[140.625px] h-[250px] md:w-[281.25px] md:h-[500px]">
+                            <img class="w-full h-full object-cover" src="@/assets/images/posters/poster6.png" />
+                        </li>
                     </ul>
                 </div>
             </div>
