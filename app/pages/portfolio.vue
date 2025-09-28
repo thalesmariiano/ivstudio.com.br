@@ -36,7 +36,7 @@
                         />
                     </div>
                 </div>
-                <div class="group w-full lg:w-1/2 h-72 lg:h-full rounded-3xl overflow-hidden">
+                <div class="group w-full lg:w-[48.4%] h-72 lg:h-full rounded-3xl overflow-hidden">
                     <img class="w-full h-full group-hover:scale-105 transition-all object-cover rounded-3xl" src="@/assets/images/portfolio/fabets.png" />
                 </div>
             </div>
