@@ -82,8 +82,8 @@
             </div>
 
             <div class="w-full lg:h-[500px] flex flex-col lg:flex-row gap-2 xs:gap-5 lg:gap-10 justify-between">
-                <div class="group lg:w-[90%] h-96 lg:h-full rounded-3xl overflow-hidden bg-neutral-400">
-                    <!-- <img class="w-full h-full object-cover group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/blinky_banner.png" /> -->
+                <div class="group lg:w-[90%] h-96 lg:h-full rounded-3xl overflow-hidden">
+                    <img class="w-full h-full object-cover object-top group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/fluentx.png" />
                 </div>
 
                 <div class="group lg:w-[90%] h-[400px] lg:h-full rounded-3xl overflow-hidden">
@@ -91,8 +91,8 @@
                 </div>
             </div>
 
-            <div class="group w-full h-72 rounded-3xl overflow-hidden bg-neutral-400">
-                <!-- <img class="w-full h-full object-cover group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/betzok_2.png" /> -->
+            <div class="group w-full lg:h-72 rounded-3xl overflow-hidden">
+                <img class="w-full h-full object-cover object-right md:object-center group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/menutap-post-banner.png" />
             </div>
 
             <div class="group w-full sm:h-[400px] lg:h-[600px] rounded-3xl overflow-hidden">
