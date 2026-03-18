@@ -2,6 +2,21 @@
     useSeoMeta({
         title: 'Portfólio | IV Studio - Creative Design'
     });
+
+    import fabetsImg from '~/assets/images/portfolio/fabets.png'
+    import blinkyBannerImg from '~/assets/images/portfolio/blinky_banner.png'
+    import solaneCleniaImg from '~/assets/images/portfolio/solane-clenia.png'
+    import menutapImg from '~/assets/images/portfolio/menutap.png'
+    import betzok1Img from '~/assets/images/portfolio/betzok_1.png'
+    import betzok4Img from '~/assets/images/portfolio/betzok_4.png'
+    import betzok7Img from '~/assets/images/portfolio/betzok_7.png'
+    import betzok9Img from '~/assets/images/portfolio/betzok_9.png'
+    import adSocialmediaImg from '~/assets/images/portfolio/ad_socialmedia.png'
+    import betzok2Img from '~/assets/images/portfolio/betzok_2.png'
+    import fluentxImg from '~/assets/images/portfolio/fluentx.png'
+    import pereiraKifferImg from '~/assets/images/portfolio/pereira-e-kiffer.png'
+    import menutapPostBannerImg from '~/assets/images/portfolio/menutap-post-banner.png'
+    import advocaciaImg from '~/assets/images/portfolio/advocacia.png'
 </script>
 
 <template>
@@ -36,68 +51,117 @@
                         />
                     </div>
                 </div>
-                <div class="group w-full lg:w-[48.4%] h-72 lg:h-full rounded-3xl overflow-hidden">
-                    <img class="w-full h-full group-hover:scale-105 transition-all object-cover rounded-3xl" src="@/assets/images/portfolio/fabets.png" />
-                </div>
+                <PortfolioItem
+                    :src="fabetsImg"
+                    name="Fabets"
+                    :categories="['Branding', 'Social Media']"
+                    wrapper-class="w-full lg:w-[48.4%] h-72 lg:h-full rounded-3xl"
+                    img-class="object-center"
+                />
             </div>
 
             <div class="w-full flex flex-col md:flex-row gap-2 xs:gap-5 lg:gap-10 justify-between">
-                <div class="group lg:w-[90%] rounded-3xl overflow-hidden">
-                    <img class="w-full h-full object-cover group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/blinky_banner.png" />
-                </div>
+                <PortfolioItem
+                    :src="blinkyBannerImg"
+                    name="Blinky"
+                    :categories="['Banner', 'Design']"
+                    wrapper-class="lg:w-[90%] rounded-3xl"
+                />
 
-                <div class="group lg:w-[90%] rounded-3xl overflow-hidden">
-                    <img class="w-full h-full object-cover group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/solane-clenia.png" />
-                </div>  
+                <PortfolioItem
+                    :src="solaneCleniaImg"
+                    name="Solane Clênia"
+                    :categories="['Identidade Visual', 'Design']"
+                    wrapper-class="lg:w-[90%] rounded-3xl"
+                />
             </div>
 
             <div class="w-full lg:h-[600px] flex flex-col lg:flex-row gap-3 xs:gap-5 lg:gap-10 justify-between">
-                <div class="group lg:w-[90%] h-[400px] lg:h-full rounded-3xl overflow-hidden">
-                    <img class="w-full h-full object-cover object-top group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/menutap.png" />
-                </div>
+                <PortfolioItem
+                    :src="menutapImg"
+                    name="MenuTap"
+                    :categories="['SaaS', 'Landing Page', 'UI/UX']"
+                    wrapper-class="lg:w-[90%] h-[400px] lg:h-full rounded-3xl"
+                    img-class="object-top"
+                />
 
                 <div class="lg:w-[90%] flex gap-3 xs:gap-5 flex-col items-center rounded-3xl">
                     <div class="w-full h-1/2 flex gap-2 xs:gap-3 justify-between">
-                        <div class="group rounded-xl xs:rounded-3xl overflow-hidden">
-                            <img class="w-full h-full object-cover group-hover:scale-105 transition-all rounded-xl xs:rounded-3xl" src="@/assets/images/portfolio/betzok_1.png" />
-                        </div>
-                        <div class="group rounded-xl xs:rounded-3xl overflow-hidden">
-                            <img class="w-full h-full object-cover group-hover:scale-105 transition-all rounded-xl xs:rounded-3xl" src="@/assets/images/portfolio/betzok_4.png" />
-                        </div>
-                        <div class="group rounded-xl xs:rounded-3xl overflow-hidden">
-                            <img class="w-full h-full object-cover group-hover:scale-105 transition-all rounded-xl xs:rounded-3xl" src="@/assets/images/portfolio/betzok_7.png" />
-                        </div>
-                        <div class="group rounded-xl xs:rounded-3xl overflow-hidden">
-                            <img class="w-full h-full object-cover group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/betzok_9.png" />
-                        </div>
+                        <PortfolioItem
+                            :src="betzok1Img"
+                            name="Betzok"
+                            :categories="['Social Media', 'Design']"
+                            wrapper-class="rounded-xl xs:rounded-3xl"
+                        />
+                        <PortfolioItem
+                            :src="betzok4Img"
+                            name="Betzok"
+                            :categories="['Social Media', 'Design']"
+                            wrapper-class="rounded-xl xs:rounded-3xl"
+                        />
+                        <PortfolioItem
+                            :src="betzok7Img"
+                            name="Betzok"
+                            :categories="['Social Media', 'Design']"
+                            wrapper-class="rounded-xl xs:rounded-3xl"
+                        />
+                        <PortfolioItem
+                            :src="betzok9Img"
+                            name="Betzok"
+                            :categories="['Social Media', 'Design']"
+                            wrapper-class="rounded-xl xs:rounded-3xl"
+                        />
                     </div>
-                    <div class="group w-full h-[55%] rounded-3xl overflow-hidden">
-                        <img class="w-full h-full object-cover group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/ad_socialmedia.png" />
-                    </div>
+                    <PortfolioItem
+                        :src="adSocialmediaImg"
+                        name="Blinky"
+                        :categories="['Ads', 'Social Media']"
+                        wrapper-class="w-full h-[55%] rounded-3xl"
+                    />
                 </div>
             </div>
 
-            <div class="group w-full lg:h-72 rounded-3xl overflow-hidden">
-                <img class="w-full h-full object-cover object-right md:object-center group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/betzok_2.png" />
-            </div>
+            <PortfolioItem
+                :src="betzok2Img"
+                name="Betzok"
+                :categories="['Social Media', 'Design']"
+                wrapper-class="w-full lg:h-72 rounded-3xl"
+                img-class="object-right md:object-center"
+            />
 
             <div class="w-full lg:h-[500px] flex flex-col lg:flex-row gap-2 xs:gap-5 lg:gap-10 justify-between">
-                <div class="group lg:w-[90%] h-96 lg:h-full rounded-3xl overflow-hidden">
-                    <img class="w-full h-full object-cover object-top group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/fluentx.png" />
-                </div>
+                <PortfolioItem
+                    :src="fluentxImg"
+                    name="FluentX"
+                    :categories="['Web Design', 'UI/UX']"
+                    wrapper-class="lg:w-[90%] h-96 lg:h-full rounded-3xl"
+                    img-class="object-top"
+                />
 
-                <div class="group lg:w-[90%] h-[400px] lg:h-full rounded-3xl overflow-hidden">
-                    <img class="w-full h-full object-cover object-top group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/pereira-e-kiffer.png" />
-                </div>
+                <PortfolioItem
+                    :src="pereiraKifferImg"
+                    name="Pereira & Kiffer"
+                    :categories="['Branding', 'Identidade Visual']"
+                    wrapper-class="lg:w-[90%] h-[400px] lg:h-full rounded-3xl"
+                    img-class="object-top"
+                />
             </div>
 
-            <div class="group w-full lg:h-72 rounded-3xl overflow-hidden">
-                <img class="w-full h-full object-cover object-right md:object-center group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/menutap-post-banner.png" />
-            </div>
+            <PortfolioItem
+                :src="menutapPostBannerImg"
+                name="MenuTap"
+                :categories="['Banner', 'Social Media']"
+                wrapper-class="w-full lg:h-72 rounded-3xl"
+                img-class="object-right md:object-center"
+            />
 
-            <div class="group w-full sm:h-[400px] lg:h-[600px] rounded-3xl overflow-hidden">
-                <img class="w-full h-full object-cover lg:object-center group-hover:scale-105 transition-all rounded-3xl" src="@/assets/images/portfolio/advocacia.png" />
-            </div>
+            <PortfolioItem
+                :src="advocaciaImg"
+                name="Advocacia"
+                :categories="['Landing Page', 'Web Design']"
+                wrapper-class="w-full sm:h-[400px] lg:h-[600px] rounded-3xl"
+                img-class="lg:object-center"
+            />
 
             <div class="w-full h-62 bg-gradient-to-l from-neutral-300/5 via-transparent via-50% to-neutral-300/5 flex gap-5 flex-col justify-center items-center rounded-3xl p-4">
                 <div class="space-y-2 text-center">
