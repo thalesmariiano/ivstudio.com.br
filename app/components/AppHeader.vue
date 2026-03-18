@@ -80,7 +80,7 @@
             enter-active-class="animate__animated animate__fadeIn"
             leave-active-class="animate__animated animate__fadeOut"
         >
-            <div v-show="showSideMenu" class="w-full h-screen bg-black/50">
+            <div v-show="showSideMenu" class="w-full h-screen bg-black/50 absolute overflow-hidden">
                 <Transition
                     enter-active-class="animate__animated animate__slideInRight"
                     leave-active-class="animate__animated animate__slideOutRight"
