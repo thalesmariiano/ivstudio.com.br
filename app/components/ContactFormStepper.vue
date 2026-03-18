@@ -1,5 +1,5 @@
 <script setup lang="ts">
-type ServiceOption = 'site' | 'identidade' | 'outro'
+type ServiceOption = 'site' | 'criativos' | 'outro'
 
 const CONTACT_EMAIL = 'contato@ivstudio.com.br'
 
@@ -19,7 +19,7 @@ const submitted = ref(false)
 
 const serviceLabel = computed(() => {
   if (form.service === 'site') return 'Quero criar um site'
-  if (form.service === 'identidade') return 'Quero uma identidade visual'
+  if (form.service === 'criativos') return 'Quero criativos para anúncios'
   if (form.service === 'outro') return 'Outro'
   return ''
 })
@@ -152,17 +152,17 @@ function submit() {
 
             <label
               class="block rounded-2xl border p-4 cursor-pointer transition-colors"
-              :class="form.service === 'identidade' ? 'border-white/40 bg-white/5' : 'border-white/10 hover:border-white/20'"
+              :class="form.service === 'criativos' ? 'border-white/40 bg-white/5' : 'border-white/10 hover:border-white/20'"
             >
-              <input v-model="form.service" class="sr-only" type="radio" name="service" value="identidade" />
+              <input v-model="form.service" class="sr-only" type="radio" name="service" value="criativos" />
               <div class="flex items-center justify-between gap-3">
                 <div class="space-y-1">
-                  <div class="font-poppins font-medium text-white">Quero uma identidade visual</div>
+                  <div class="font-poppins font-medium text-white">Quero criativo para anúncios</div>
                   <div class="font-poppins font-light text-white/70 text-sm">Logo, paleta, tipografia e aplicações.</div>
                 </div>
                 <div
                   class="w-4 h-4 rounded-full border"
-                  :class="form.service === 'identidade' ? 'bg-white border-white' : 'border-white/40'"
+                  :class="form.service === 'criativos' ? 'bg-white border-white' : 'border-white/40'"
                 />
               </div>
             </label>
