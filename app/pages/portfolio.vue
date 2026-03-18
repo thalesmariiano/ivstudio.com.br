@@ -41,6 +41,7 @@
                         </div>
 
                         <LinkButton
+                            to="/contato"
                             label="Vamos criar algo juntos?"
                             :icon-width="24"
                             :icon-height="24"
