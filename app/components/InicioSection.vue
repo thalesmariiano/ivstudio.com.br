@@ -1,12 +1,6 @@
 <template>
     <section class="w-full relative">
 
-        <video class="w-screen h-screen absolute object-cover top-0 left-0 -z-10" poster="@/assets/images/video-poster.png" autoplay muted loop playsinline webkit-playsinline disablepictureinpicture preload="auto">
-            <source src="@/assets/videos/hero-video-4.mp4" type="video/mp4">
-            <!-- <source src="@/assets/videos/hero-video.ogg" type="video/ogg"> -->
-                Your browser does not support the video tag.
-        </video>
-
         <div class="w-full">
             <div class="w-full h-full flex gap-7 flex-col justify-center items-center px-4 pt-14 sm:pt-24 pb-5">
                 <h1 class="font-poppins text-white font-semibold text-[28px] sm:text-[2.7rem] leading-8 sm:leading-12 text-center">
@@ -23,6 +17,7 @@
                 </p>
 
                 <LinkButton
+                    to="/contato"
                     label="Solicitar Orçamento"
                     :icon-width="24"
                     :icon-height="24"
