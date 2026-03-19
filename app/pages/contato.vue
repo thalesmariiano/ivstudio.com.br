@@ -24,7 +24,7 @@
                     <h2 class="font-poppins font-bold text-white text-3xl">Vamos criar algo juntos?</h2>
                     <p class="font-poppins font-light text-white max-w-2xl mx-auto">
                         Preencha o formulário abaixo e me conte o que você precisa. Em poucos passos você envia as informações
-                        essenciais para eu retornar com orientações, prazo e orçamento.
+                        essenciais para retornarmos com orientações, prazo e orçamento.
                     </p>
                 </div>
             </div>
