@@ -5,5 +5,6 @@
                 <slot />
             <AppFooter />
         </div>
+        <FloatingWhatsapp />
     </div>
 </template>
