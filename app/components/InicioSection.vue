@@ -32,10 +32,18 @@
                 </a> -->
 
                 <div class="flex gap-2 items-center">
-                    <a><IconsGithub width="30" height="30" fill="#fff" /></a>
-                    <a><IconsBehance width="30" height="30" fill="#fff" /></a>
-                    <a><IconsInstagram width="30" height="30" fill="#fff" /></a>
-                    <a><IconsPinterest width="30" height="30" fill="#fff" /></a>
+                    <a class="hover:-translate-y-1 transition-all" href="https://github.com/IV-Studio-Design" target="_blank">
+                        <IconsGithub width="30" height="30" fill="#fff" />
+                    </a>
+                    <a class="hover:-translate-y-1 transition-all" href="https://www.behance.net/ivstudiodesign" target="_blank">
+                        <IconsBehance width="30" height="30" fill="#fff" />
+                    </a>
+                    <a class="hover:-translate-y-1 transition-all" href="https://www.instagram.com/ivstudio.design/">
+                        <IconsInstagram width="30" height="30" fill="#fff" />
+                    </a>
+                    <a class="hover:-translate-y-1 transition-all" href="https://br.pinterest.com/ivstudiocreativedesign/" target="_blank">
+                        <IconsPinterest width="30" height="30" fill="#fff" />
+                    </a>
                 </div>
             </div>
 
