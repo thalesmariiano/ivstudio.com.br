@@ -54,6 +54,7 @@
                     </ul>
 
                     <LinkButton
+                        to="/contato"
                         label="Solicitar Orçamento"
                         :icon-width="24"
                         :icon-height="24"

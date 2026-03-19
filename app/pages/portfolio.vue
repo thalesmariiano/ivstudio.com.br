@@ -173,6 +173,7 @@
                 </div>
 
                 <LinkButton 
+                    to="/contato"
                     label="Entre em contato" 
                     :icon-width="24" 
                     :icon-height="24" 

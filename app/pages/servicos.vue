@@ -22,6 +22,7 @@
                     </div>
 
                     <LinkButton
+                        to="/contato"
                         label="Entrar em contato"
                         :icon-width="24"
                         :icon-height="24"
