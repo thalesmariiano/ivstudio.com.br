@@ -3,6 +3,7 @@
 
     useSeoMeta({
         title: 'Serviços | IV Studio - Creative Design',
+        description: 'Design que conecta sua marca às pessoas certas. Criamos sites, landing pages, posts, anúncios e materiais digitais que chamam atenção, engajam e transformam visitantes em resultados.',
         ogTitle: 'Serviços | IV Studio - Creative Design',
         ogDescription: 'Design que conecta sua marca às pessoas certas. Criamos sites, landing pages, posts, anúncios e materiais digitais que chamam atenção, engajam e transformam visitantes em resultados.',
         ogUrl: 'https://ivstudio.com.br/servicos',
