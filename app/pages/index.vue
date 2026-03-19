@@ -1,9 +1,9 @@
 <script setup lang="ts">
     useSeoMeta({
         title: 'Inicío | IV Studio - Creative Design',
-        description: 'Criamos sites que fazem seu negócio vender mais.Do design à estrategia, tudo é pensado para atrair clientes e gerar conversões. Simples, bonito e eficiente - exatamente como seu site deve ser.',
+        description: 'Criamos sites que fazem seu negócio vender mais. Do design à estrategia, tudo é pensado para atrair clientes e gerar conversões. Simples, bonito e eficiente - exatamente como seu site deve ser.',
         ogTitle: 'Inicío | IV Studio - Creative Design',
-        ogDescription: 'Criamos sites que fazem seu negócio vender mais.Do design à estrategia, tudo é pensado para atrair clientes e gerar conversões. Simples, bonito e eficiente - exatamente como seu site deve ser.',
+        ogDescription: 'Criamos sites que fazem seu negócio vender mais. Do design à estrategia, tudo é pensado para atrair clientes e gerar conversões. Simples, bonito e eficiente - exatamente como seu site deve ser.',
         ogUrl: 'https://ivstudio.com.br',
         ogImage: '/ogthumb.webp',
         ogLocale: 'pt_BR',
