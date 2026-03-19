@@ -1,6 +1,13 @@
 <script setup lang="ts">
     useSeoMeta({
-        title: 'Portfólio | IV Studio - Creative Design'
+        title: 'Portfólio | IV Studio - Creative Design',
+        ogTitle: 'Portfólio | IV Studio - Creative Design',
+        ogDescription: 'Conheça os projetos que já ajudaram marcas a se destacar no digital. Cada trabalho é pensado para unir estratégia e design, gerando resultados reais.',
+        ogUrl: 'https://ivstudio.com.br/portfolio',
+        ogImage: '/ogthumb.webp',
+        ogLocale: 'pt_BR',
+        ogType: 'website',
+        charset: 'utf-8',
     });
 
     import fabetsImg from '~/assets/images/portfolio/fabets.png'

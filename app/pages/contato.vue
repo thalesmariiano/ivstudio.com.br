@@ -1,6 +1,13 @@
 <script setup lang="ts">
     useSeoMeta({
-        title: 'Contato | IV Studio - Creative Design'
+        title: 'Contato | IV Studio - Creative Design',
+        ogTitle: 'Contato | IV Studio - Creative Design',
+        ogDescription: 'Vamos criar algo juntos? Em poucos passos você envia as informações essenciais para retornarmos com orientações, prazo e orçamento.',
+        ogUrl: 'https://ivstudio.com.br/contato',
+        ogImage: '/ogthumb.webp',
+        ogLocale: 'pt_BR',
+        ogType: 'website',
+        charset: 'utf-8',
     });
 </script>
 
